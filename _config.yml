@@ -6,7 +6,7 @@ defaults:
       path: ""
     values:
       layout: "page"
-      title: "dear sadisco"
+      title: "Dear Sadisco"
       description: ""
 
 safe: true
