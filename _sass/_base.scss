@@ -1,18 +1,18 @@
 body {
     font-family: -apple-system,BlinkMacSystemFont,Roboto,"Segoe UI",Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-    background: lighten(#820263,9%);
+    background: #820263;
     animation: bgchange 16s infinite;
 }
 
 @keyframes bgchange {
     from {
-        background: lighten(#820263,0%);
+        background: #820263;
     }
     50% {
         background: #D90368;
     }
     to {
-        background: lighten(#820263,0%);
+        background: #820263;
     }
 }
 
