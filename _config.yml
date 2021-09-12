@@ -1,0 +1,15 @@
+url: "https://joshua.bio"
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+      title: "dear sadisco"
+      description: ""
+
+safe: true
+timezone: "America/Los_Angeles"
+sass:
+  style: "compressed"

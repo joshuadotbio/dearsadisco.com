@@ -1,0 +1,36 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,"Segoe UI",Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    background: lighten(#820263,9%);
+    animation: bgchange 16s infinite;
+}
+
+@keyframes bgchange {
+    from {
+        background: lighten(#820263,0%);
+    }
+    50% {
+        background: #D90368;
+    }
+    to {
+        background: lighten(#820263,0%);
+    }
+}
+
+.parent {
+    text-align: center;
+}
+
+.child {
+    display: inline-block;
+}
+
+.placeholder {
+    text-align: left;
+    margin-top: 240px;
+    font-size: 240%;
+    color: #fff;
+}
+
+.sitename {
+    font-style: italic;
+}
